@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tiệm Hoa Tươi – Blossom Garden</title>
+    <title>Blossom Garden – Tiệm Hoa Tươi</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
+<header class="header">
     <div class="container nav-wrapper">
-        <div class="logo">Blossom Garden</div>
-
-        <div class="search-box">
-            <input type="text" placeholder="Tìm hoa tươi...">
-        </div>
+        <div class="logo">Blossom<span>Garden</span></div>
 
         <nav>
             <a href="#">Trang chủ</a>
@@ -23,62 +22,97 @@
             <a href="#">Hoa sự kiện</a>
             <a href="#">Liên hệ</a>
         </nav>
+
+        <div class="icons">
+            <span class="cart">🛒</span>
+            <span class="user">👤</span>
+        </div>
     </div>
 </header>
 
-<div class="hero">
-    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1500&q=80" alt="">
-    <div class="hero-text">Hoa tươi – Sự nhẹ nhàng gửi tặng yêu thương</div>
-</div>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Flowers that<br> attract happiness</h1>
+        <p>Hoa tươi nhẹ nhàng mang đến năng lượng tích cực và yêu thương.</p>
+        <a href="#" class="btn-primary">Khám phá ngay</a>
+    </div>
 
-<div class="container">
-    <h2 class="section-title">Bó hoa nổi bật</h2>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80">
+    </div>
+</section>
 
-    <div class="products">
+<!-- FEATURES -->
+<section class="features">
+    <div class="container features-grid">
+
+        <div class="feature-card">
+            <div class="icon">❄️</div>
+            <h3>Tươi mới</h3>
+            <p>Hoa nhập mỗi ngày</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📦</div>
+            <h3>Gói an toàn</h3>
+            <p>Bao bọc cẩn thận</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🚚</div>
+            <h3>Miễn phí giao</h3>
+            <p>Đơn trên 300k</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">💬</div>
+            <h3>Hỗ trợ 24/7</h3>
+            <p>Tư vấn nhanh</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PRODUCT SECTION -->
+<section class="product-section container">
+    <h2 class="section-title">Sản phẩm mới</h2>
+
+    <div class="products-grid">
 
         <div class="product-card">
             <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80">
-            <div class="product-info">
-                <h3>Bó hoa hồng pastel</h3>
-                <div class="price">450.000₫</div>
-                <a href="#" class="btn">Đặt ngay</a>
-            </div>
+            <h4>Bó hoa hồng pastel</h4>
+            <p class="price">450.000₫</p>
+            <button class="btn-outline">Thêm vào giỏ</button>
         </div>
 
         <div class="product-card">
             <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80">
-            <div class="product-info">
-                <h3>Hoa tulip mix</h3>
-                <div class="price">520.000₫</div>
-                <a href="#" class="btn">Đặt ngay</a>
-            </div>
+            <h4>Hoa tulip mix</h4>
+            <p class="price">520.000₫</p>
+            <button class="btn-outline">Thêm vào giỏ</button>
         </div>
 
         <div class="product-card">
             <img src="https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=600&q=80">
-            <div class="product-info">
-                <h3>Bó baby trắng</h3>
-                <div class="price">300.000₫</div>
-                <a href="#" class="btn">Đặt ngay</a>
-            </div>
+            <h4>Bó baby trắng</h4>
+            <p class="price">300.000₫</p>
+            <button class="btn-outline">Thêm vào giỏ</button>
         </div>
 
         <div class="product-card">
             <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80">
-            <div class="product-info">
-                <h3>Hoa mẫu đơn hồng</h3>
-                <div class="price">650.000₫</div>
-                <a href="#" class="btn">Đặt ngay</a>
-            </div>
+            <h4>Hoa mẫu đơn hồng</h4>
+            <p class="price">650.000₫</p>
+            <button class="btn-outline">Thêm vào giỏ</button>
         </div>
 
     </div>
-</div>
+</section>
 
 <footer>
-    <div class="container">
-        © 2025 Blossom Garden – Tiệm hoa tươi phong cách nhẹ nhàng
-    </div>
+    © 2025 Blossom Garden – Tiệm hoa phong cách nhẹ nhàng
 </footer>
 
 </body>
